@@ -1,0 +1,14 @@
+button{
+    margin-top: 0.9%;
+    height: 55px;
+    width: 8%;
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 428px){
+    button{
+        width: 100%;
+    }
+}

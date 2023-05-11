@@ -1,6 +1,6 @@
 {
   "name": "searchbar-tictatrip",
-  "homepage": "https://btssio2023.edta-sornas.com/PPE/Jordy/Tictatrip/dist/",
+  "homepage": "https://Jordy-6.github.io/SearchBar_Tictatrip",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
